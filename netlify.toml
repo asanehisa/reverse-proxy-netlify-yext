@@ -8,22 +8,22 @@
   
 [[redirects]]
   from = "/subdirectory/*"
-  to = "https://amply-voiceless-fox.pgsdemo.com/:splat"
+  to = "https://vibrantly-plain-lark.pgsdemo.com//:splat"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com"}
+  headers = {Host = "https://vibrantly-plain-lark.pgsdemo.com/"}
   
 [[redirects]]
   from = "/subdirectory"
-  to = "https://amply-voiceless-fox.pgsdemo.com/index.html"
+  to = "https://vibrantly-plain-lark.pgsdemo.com//index.html"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com/"}
+  headers = {Host = "https://vibrantly-plain-lark.pgsdemo.com/"}
 
   [[redirects]]
-  from = "/assets/static/*"
-  to = "https://amply-voiceless-fox.pgsdemo.com/assets/static/:splat"
+  from = "/*"
+  to = "https://vibrantly-plain-lark.pgsdemo.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com/"}
+  headers = {Host = "https://vibrantly-plain-lark.pgsdemo.com/"}
 
